@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Barber Shop Hancel Luna</title>
+
+<!-- Favicon -->
+<link rel="icon" type="image/jpg" href="src/assets/img/fondo3.jpg" />
+
+<!-- Tailwind CDN (solo para desarrollo) -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'heading': ['"Playfair Display"', 'serif'],
+                        'body': ['"Lato"', 'sans-serif'],
+                    },
+                    colors: {
+                        'barber-red': '#d43737', /* --primary-color */
+                        'barber-bg': '#111',   /* --bg-color */
+                        'barber-card': '#1a1a1a', /* --card-bg */
+                        'barber-text': '#f0f0f0'  /* --text-color */
+                    }
+                }
+            }
+        }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-barber-bg text-barber-text font-body">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
