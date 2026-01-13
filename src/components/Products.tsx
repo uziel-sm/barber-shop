@@ -6,7 +6,7 @@ const Products: React.FC = () => {
       name: 'Minoxidil 5%',
       price: '$200',
       description: 'Tratamiento efectivo para potenciar el crecimiento de barba y cabello.',
-      image: 'src/assets/img/minoxidil.png'
+      image: 'assets/img/minoxidil.png'
     },
     // {
     //   name: 'Cera Mate',

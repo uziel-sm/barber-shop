@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
       <div className="flex items-center gap-2.5">
         <div className="h-[50px] w-[50px] bg-barber-bg rounded-full flex items-center justify-center overflow-hidden">
              {/* Placeholder for img/loguito.jpg */}
-             <img src="src/assets/img/logo2.png" alt="Logo" className="w-full h-full object-cover" />
+             <img src="assets/img/logo2.png" alt="Logo" className="w-full h-full object-cover" />
         </div>
         <h1 className="text-center m-0">
           <a href="#" className="font-heading text-[1.5rem] md:text-[2rem] text-white italic hover:text-barber-red transition-colors no-underline">

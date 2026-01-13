@@ -70,7 +70,7 @@ const Gallery: React.FC = () => {
     { 
       title: 'CORTE',
       images: [
-        'src/assets/img/corte4.png',
+        'assets/img/corte4.png',
         'https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=800&auto=format&fit=crop',
         'https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=800&auto=format&fit=crop',
       ]
@@ -78,17 +78,17 @@ const Gallery: React.FC = () => {
     { 
       title: 'AFEITADO',
       images: [
-        'src/assets/img/barba1.png',
-        'src/assets/img/barba2.png',
-        'src/assets/img/barba3.png'
+        'assets/img/barba1.png',
+        'assets/img/barba2.png',
+        'assets/img/barba3.png'
       ]
     },
     { 
       title: 'CORTE + BARBA',
       images: [
-        'src/assets/img/corte1.png',
-        'src/assets/img/corte2.png',
-        'src/assets/img/corte3.png'
+        'assets/img/corte1.png',
+        'assets/img/corte2.png',
+        'assets/img/corte3.png'
       ]
     },
   ];

@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
         <div className="w-full md:w-1/2 h-1/3 flex items-center justify-center relative mt-0 md:mt-0 order-1 md:order-1">
           <div className="relative w-[60%] md:w-[60%] aspect-square">
             <img 
-              src="src/assets/img/logo2.png" 
+              src="assets/img/logo2.png" 
               alt="Barber Shop Hancel Luna" 
               className="object-cover w-full h-full rounded-full shadow-2xl z-10 relative border-2 border-white/60"
             />
