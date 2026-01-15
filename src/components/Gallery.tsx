@@ -73,7 +73,6 @@ const Gallery: React.FC = () => {
         'assets/img/corte1.2.jpeg',
         'assets/img/corte1.4.jpeg',
         'assets/img/corte1.5.jpeg',
-        'assets/img/corte1.3.jpeg',
         'assets/img/corte1.6.jpeg'
 
       ]
@@ -81,10 +80,10 @@ const Gallery: React.FC = () => {
     { 
       title: 'AFEITADO',
       images: [
-        'assets/img/barba3.png',
         'assets/img/corte1.1.jpeg',
+        'assets/img/barba3.png',
+        'assets/img/corte1.3.jpeg',
         'assets/img/barba2.png'
-        
       ]
     },
     { 
