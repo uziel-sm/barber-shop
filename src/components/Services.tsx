@@ -15,7 +15,7 @@ const Services: React.FC = () => {
               <Scissors size={48} />
             </div>
             <h3 className="text-barber-red text-[1.8rem] mb-[5px] font-heading uppercase">CORTE</h3>
-            <p className="text-[2.5rem] font-bold text-white mb-[20px]">$120</p>
+            <p className="text-[2.5rem] font-bold text-white mb-[20px]">$130</p>
             <div className="w-full border-t border-gray-600 my-[15px]"></div>
             <ul className="list-none p-0 text-left space-y-3 w-full pl-4">
               <li className="flex items-start gap-2"><Check className="text-barber-red shrink-0" size={18} /> <span>Desvanecidos y cortes modernos</span></li>
@@ -29,11 +29,12 @@ const Services: React.FC = () => {
               <SprayCan size={48} />
             </div>
             <h3 className="text-barber-red text-[1.8rem] mb-[5px] font-heading uppercase">AFEITADO</h3>
-            <p className="text-[2.5rem] font-bold text-white mb-[20px]">$80</p>
+            <p className="text-[2.5rem] font-bold text-white mb-[20px]">$130</p>
             <div className="w-full border-t border-gray-600 my-[15px]"></div>
             <ul className="list-none p-0 text-left space-y-3 w-full pl-4">
               <li className="flex items-start gap-2"><Check className="text-barber-red shrink-0" size={18} /> <span>Diseño y perfilado de barba</span></li>
               <li className="flex items-start gap-2"><Check className="text-barber-red shrink-0" size={18} /> <span>Afeitado tradicional con navaja</span></li>
+              <li className="flex items-start gap-2"><Check className="text-barber-red shrink-0" size={18} /> <span>Perfilado de ceja (+ $40)</span></li>
               {/* <li className="flex items-start gap-2"><Check className="text-barber-red shrink-0" size={18} /> <span>Toalla caliente y aceites esenciales</span></li> */}
             </ul>
           </div>
@@ -48,11 +49,11 @@ const Services: React.FC = () => {
               <Crown size={48} />
             </div>
             <h3 className="text-barber-red text-[1.8rem] mb-[5px] font-heading uppercase">PREMIUM</h3>
-            <p className="text-[2.5rem] font-bold text-white mb-[20px]">$200</p>
+            <p className="text-[2.5rem] font-bold text-white mb-[20px]">$240</p>
             <div className="w-full border-t border-gray-600 my-[15px]"></div>
             <ul className="list-none p-0 text-left space-y-3 w-full pl-4">
               <li className="flex items-start gap-2"><Check className="text-barber-red shrink-0" size={18} /> <span>Servicio completo: Corte + Barba</span></li>
-              <li className="flex items-start gap-2"><Check className="text-barber-red shrink-0" size={18} /> <span>Limpieza facial express</span></li>
+              <li className="flex items-start gap-2"><Check className="text-barber-red shrink-0" size={18} /> <span>Perfilado de ceja</span></li>
               <li className="flex items-start gap-2"><Check className="text-barber-red shrink-0" size={18} /> <span>Peinado y productos de calidad</span></li>
             </ul>
           </div>

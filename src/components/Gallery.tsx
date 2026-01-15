@@ -69,26 +69,31 @@ const Gallery: React.FC = () => {
   const categories = [
     { 
       title: 'CORTE',
-      images: [
-        'assets/img/corte4.png',
-        'https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=800&auto=format&fit=crop',
+      images: [ 
+        'assets/img/corte1.2.jpeg',
+        'assets/img/corte1.4.jpeg',
+        'assets/img/corte1.5.jpeg',
+        'assets/img/corte1.3.jpeg',
+        'assets/img/corte1.6.jpeg'
+
       ]
     },
     { 
       title: 'AFEITADO',
       images: [
-        'assets/img/barba1.png',
-        'assets/img/barba2.png',
-        'assets/img/barba3.png'
+        'assets/img/barba3.png',
+        'assets/img/corte1.1.jpeg',
+        'assets/img/barba2.png'
+        
       ]
     },
     { 
       title: 'CORTE + BARBA',
       images: [
+        'assets/img/c+b1.jpeg',
+        'assets/img/c+b2.jpeg',
         'assets/img/corte1.png',
-        'assets/img/corte2.png',
-        'assets/img/corte3.png'
+        'assets/img/c+b3.jpeg'
       ]
     },
   ];
